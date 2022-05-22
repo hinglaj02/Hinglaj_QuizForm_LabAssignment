@@ -72,7 +72,7 @@ function showProgress() {
 function showScore() {
   document.getElementById("quiz").innerHTML = `
         <h1>Result</h1>
-        <h2 id="score">You scored ${quiz.score}</h2>
+        <h2 id="score">You scored ${quiz.score} out of 5</h2>
     `;
 }
 
